@@ -2,9 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: A Program that prints various computer types
- *
- * Return 0 (Passed)
+ * Return: 0 (Success)
  */
 int main(void)
 {
