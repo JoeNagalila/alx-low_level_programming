@@ -1,6 +1,9 @@
 #include<stdio.h>
 /**
- * main - A Program that prints various computer types
+ * main - Entry point
+ *
+ * Description: A Program that prints various computer types
+ *
  * Return 0 (Passed)
  */
 int main(void)
@@ -11,10 +14,10 @@ int main(void)
 	long long int d;
 	float f;
 
-printif("Size of a char: %lu bytes(s)\n",(unsigned long)sizeof(a));
-printif("Size of an int: %lu bytes(s)\n",(unsigned long)sizeof(b));
-printif("Size of a long int: %lu bytes(s)\n",(unsigned long)sizeof(c));
-printif("Size of a long long int: %lu bytes(s)\n",(unsigned long)sizeof(d));
-printif("Size of a float: %lu bytes(s)\n",(unsigned long)sizeof(f));
+printif("Size of a char: %lu bytes(s)\n", (unsigned long)sizeof(a));
+printif("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b));
+printif("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
+printif("Size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
+printif("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
