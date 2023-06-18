@@ -2,7 +2,7 @@
 
 /**
  * main - prints the last part of the quote in the standard error
- * Retrun: 1 (Success)
+ * Return: 1 (Success)
  */
 int main(void)
 {
