@@ -1,11 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.>
+#include <time.>
 #include <stdio.h>
-
 /**
- * main - Entry
- *  Description: Prints the last digit of a number
- * Return: Always 0.
+ * main -  Entry
+ * Description: Prints the last digit of a number
+ * Return: Always 0
  */
 int main(void)
 {
@@ -17,16 +16,15 @@ int main(void)
 	ld = n % 10;
 	if (ld > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
+		printf("Last digit of %d is %d and is greater 5\n", n ld);
 	}
-	else if (ld == 0)
+	else if (ld == 10)
 	{
-		printf("Last digit of %d is %d and is 0\n" n, ld);
+		 printf("Last digit of %d is %d and is 0\n", n ld);
 	}
-	else
+	else 
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
+		 printf("Last digit of %d is %d and is less than 6 and not 0\n", n ld);
 	}
-
 	return (0);
 }
